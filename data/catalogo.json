@@ -1,0 +1,1330 @@
+{
+  "categorias": [
+    {
+      "id": "c-sofas-retrateis",
+      "nome": "Sofás retráteis",
+      "slug": "sofas-retrateis",
+      "ordem": 1,
+      "ativo": true,
+      "capa": "/produtos/sofa-retratil-e-reclinavel-pillow-top-bege.webp",
+      "capaBlur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAkAA4BaJYwCdAC1E7voAAD9UbHNRLC9oqkF6Dv7shaUvxD6NNuxoudGAjL4yeHSwfQ3PcfzgAAA"
+    },
+    {
+      "id": "c-sofas-e-cantos",
+      "nome": "Sofás e cantos",
+      "slug": "sofas-e-cantos",
+      "ordem": 2,
+      "ativo": true,
+      "capa": "/produtos/sofa-living-bipartido-em-veludo-verde-menta.webp",
+      "capaBlur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoMAAkAA4BaJQBOgCPqPab/QADLBQehd4FUeW9YSzLchE2CFpTFlkd3i/YxzIJB8WiWPkQAAAA="
+    },
+    {
+      "id": "c-poltronas",
+      "nome": "Poltronas",
+      "slug": "poltronas",
+      "ordem": 3,
+      "ativo": true,
+      "capa": "/produtos/poltrona-giratoria-redonda-off-white.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAkAA4BaJZQCdADhAIFuwAAA/opGqxFYJ+ujcaVbAvLd3JSzKjEIFntoGgwkeWqh2Mwld1Lm1Ivk26gl6K6x1+rpAAAA"
+    },
+    {
+      "id": "c-paineis-e-racks",
+      "nome": "Painéis e racks",
+      "slug": "paineis-e-racks",
+      "ordem": 4,
+      "ativo": true,
+      "capa": "/produtos/painel-ripado-com-led-e-bancada-suspensa.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJagCdADbIfTTOAAA/f+ExAcXMlxwPT6qPpsLJb09TKdJ6K4FJ8SQ4U/+dPdIi7kBhHWwMRbCp3yBxg4AAA=="
+    },
+    {
+      "id": "c-mesas-de-jantar",
+      "nome": "Mesas de jantar",
+      "slug": "mesas-de-jantar",
+      "ordem": 5,
+      "ativo": true,
+      "capa": "/produtos/mesa-de-jantar-em-madeira-macica-com-cadeiras.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoMAAkAA4BaJbACdAEDHxaqVM4EAAD+rJtiPip57+TMa9py+nwDPP343/fktXJmMs3yB8E2KUQPGYb6fJeoGu4Bb9d/BG+bAI5VlxQkAAA="
+    },
+    {
+      "id": "c-bistros-e-banquetas",
+      "nome": "Bistrôs e banquetas",
+      "slug": "bistros-e-banquetas",
+      "ordem": 6,
+      "ativo": true,
+      "capa": "/produtos/bistro-alto-com-4-banquetas-em-madeira.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMAAwAA4BaJQBOgCKKfaRbAAD+6HDhoHkfsASf3sjgvmqeMDnGf0mSFc0RzgLDcT9DVuzKqdMg1W84YAAAAA=="
+    },
+    {
+      "id": "c-cadeiras",
+      "nome": "Cadeiras",
+      "slug": "cadeiras",
+      "ordem": 7,
+      "ativo": true,
+      "capa": "/produtos/cadeira-estofada-com-pes-em-metal-verde.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoMAAwAA4BaJaQAAl2I9gfAAAD++Ln3AIn400rCidFDDJGtGmX4S+UGHX/T6tYwatgZk7qbqwJLKvBESS6rrAAA"
+    },
+    {
+      "id": "c-camas-e-colchoes",
+      "nome": "Camas e colchões",
+      "slug": "camas-e-colchoes",
+      "ordem": 8,
+      "ativo": true,
+      "capa": "/produtos/cama-box-com-cabeceira-ripada-e-criado-mudo.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoHAAwAA4BaJZACdAD0pu6q5d4AAP29GXZYZ3StbqLFh4dapynrVE6uGe1DD14LooI3kU+YaLEZNPRPEfigJoCU7ucrgAAA"
+    },
+    {
+      "id": "c-comodas-e-roupeiros",
+      "nome": "Cômodas e roupeiros",
+      "slug": "comodas-e-roupeiros",
+      "ordem": 9,
+      "ativo": true,
+      "capa": "/produtos/comoda-em-madeira-com-5-gavetas-e-porta.webp",
+      "capaBlur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoHAAwAA4BaJaACdAEOzCvZ/ugAAPsFnbf7pNss45CYhY+Hm4OL9PrDD96mxHeAOM4pO4UAAAA="
+    }
+  ],
+  "produtos": [
+    {
+      "id": "p-001",
+      "codigo": "MD-0001",
+      "nome": "Sofá retrátil e reclinável pillow top, bege",
+      "slug": "sofa-retratil-e-reclinavel-pillow-top-bege",
+      "descricao": "Assento retrátil e encosto reclinável, com pillow top de 20 cm em espuma D-28 soft e molas ensacadas. Estrutura em madeira de eucalipto de reflorestamento, assento com molas Bonnel entrelaçadas com percintas elásticas, 100% fibra siliconada. Vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "bege"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 1,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-e-reclinavel-pillow-top-bege.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAkAA4BaJYwCdAC1E7voAAD9UbHNRLC9oqkF6Dv7shaUvxD6NNuxoudGAjL4yeHSwfQ3PcfzgAAA",
+          "alt": "Sofá retrátil e reclinável pillow top, bege",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 100,
+        "profundidade": 110,
+        "braco": "20 ou 25 cm",
+        "modulos": "0,80 · 0,90 · 1,00 · 1,20 m"
+      }
+    },
+    {
+      "id": "p-002",
+      "codigo": "MD-0002",
+      "nome": "Sofá retrátil e reclinável com porta-copos, off-white",
+      "slug": "sofa-retratil-e-reclinavel-com-porta-copos-off-white",
+      "descricao": "Assento retrátil, encosto bipartido e reclinável, com acessório porta-copo opcional. Espuma D-28 soft, 100% fibra siliconada, madeira de eucalipto de reflorestamento e assento com molas Bonnel entrelaçadas com percintas elásticas. Revestimento Puríssimo, com vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 2,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-e-reclinavel-com-porta-copos-off-white.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoMAAkAA4BaJZQCdAEfT7rigAD5XUwfCU/W+rB2eSR0VqVJckWb/fexsC/619pAAAA=",
+          "alt": "Sofá retrátil e reclinável com porta-copos, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 100,
+        "profundidade": 110,
+        "braco": "20 ou 25 cm",
+        "modulos": "0,80 · 0,90 · 1,00 · 1,20 m"
+      }
+    },
+    {
+      "id": "p-003",
+      "codigo": "MD-0003",
+      "nome": "Sofá retrátil e reclinável pillow top em bouclê, off-white",
+      "slug": "sofa-retratil-e-reclinavel-pillow-top-em-boucle-off-white",
+      "descricao": "Pillow top de 20 cm com espuma D-28 soft e molas ensacadas, encosto reclinável. Madeira de eucalipto de reflorestamento, assento com molas Bonnel entrelaçadas mais molas ensacadas, 100% fibra siliconada. Revestimento em bouclê; vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 3,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-e-reclinavel-pillow-top-em-boucle-off-white.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoMAAkAA4BaJYwCdAEQXNyjVgMQAADOJ737Wk1xVD1gWAmJ2oAi+BCr3T2QCWzpKw8PVwnPVy/zPSrAAAA=",
+          "alt": "Sofá retrátil e reclinável pillow top em bouclê, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 115,
+        "profundidade": 110,
+        "braco": "20 ou 25 cm",
+        "modulos": "0,80 · 0,90 · 1,00 · 1,20 m"
+      }
+    },
+    {
+      "id": "p-004",
+      "codigo": "MD-0004",
+      "nome": "Sofá retrátil e reclinável pillow top em veludo, cinza-chumbo",
+      "slug": "sofa-retratil-e-reclinavel-pillow-top-em-veludo-cinza-chumbo",
+      "descricao": "Assento retrátil e encosto reclinável, pillow top de 20 cm em espuma D-28 soft com molas ensacadas. Estrutura em madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, 100% fibra siliconada. Revestimento em veludo; vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "cinza-chumbo"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 103,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-e-reclinavel-pillow-top-em-veludo-cinza-chumbo.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoMAAkAA4BaJZwAAupXLbggAOJ7z7NJOAKlK3BKkY3LhbliKUm+do6qhr4p9QcAAAA=",
+          "alt": "Sofá retrátil e reclinável pillow top em veludo, cinza-chumbo",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 100,
+        "profundidade": 110,
+        "braco": "20 ou 25 cm",
+        "modulos": "0,80 · 0,90 · 1,00 · 1,20 m"
+      }
+    },
+    {
+      "id": "p-005",
+      "codigo": "MD-0005",
+      "nome": "Sofá retrátil em suede, bege",
+      "slug": "sofa-retratil-em-suede-bege",
+      "descricao": "Sofá retrátil e reclinável em suede bege, com almofadas soltas de encosto e pillow top. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "bege"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 104,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-em-suede-bege.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoHAAwAA4BaJZACdAD0oVHn8wAA/fa4DTKmvPJ5vi4oST7crupIxS9IKVyZ8QRtmW1VtS5hvJvoAAAA",
+          "alt": "Sofá retrátil em suede, bege",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-006",
+      "codigo": "MD-0006",
+      "nome": "Sofá retrátil pillow top, branco",
+      "slug": "sofa-retratil-pillow-top-branco",
+      "descricao": "Sofá retrátil e reclinável branco, com pillow top e encosto bipartido. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 105,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-pillow-top-branco.webp",
+          "largura": 640,
+          "altura": 1136,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoHAAwAA4BaJZQC7AD5hRg+QAAAze+YD6xKvt+deNtHWQn/mnMeaC23wqGGXeuYZezij6NNpiMMHORWyrAAAA==",
+          "alt": "Sofá retrátil pillow top, branco",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/sofa-retratil-pillow-top-branco-2.webp",
+          "largura": 640,
+          "altura": 1136,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoHAAwAA4BaJZQC7AD5hRg/XAAAze+YD6xKvt+deNtHWQn/mnMeaC23wqGGXSK9ysRmPo02mIpPTJAHNgAAAA==",
+          "alt": "Sofá retrátil pillow top, branco",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-007",
+      "codigo": "MD-0007",
+      "nome": "Sofá retrátil em veludo, cinza-azulado",
+      "slug": "sofa-retratil-em-veludo-cinza-azulado",
+      "descricao": "Sofá retrátil e reclinável em veludo cinza-azulado, assento em gomos e encosto alto com pillow top. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-retrateis",
+      "tamanhos": [],
+      "cores": [
+        "cinza-azulado"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 4,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-retratil-em-veludo-cinza-azulado.webp",
+          "largura": 1200,
+          "altura": 1600,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoJAAwAA4BaJZACdH8AGNuyO+qPAAD+qqWGEvs1W3Kf+qnj0cz3vuz0w/Fj32JhubPDpxzdszFDhDPU9WVCXrUj/22iqfWosQ78AAAA",
+          "alt": "Sofá retrátil em veludo, cinza-azulado",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/sofa-retratil-em-veludo-cinza-azulado-2.webp",
+          "largura": 640,
+          "altura": 1136,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoHAAwAA4BaJQBOgB6I46n5eEAA9rCOSQWF5iMnz3kSl/PDwxwz+Q47Xxn4/WLZt+43uwRJgcmDBCasNjKHjjOqJOOfdYBQAAA=",
+          "alt": "Sofá retrátil em veludo, cinza-azulado",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/sofa-retratil-em-veludo-cinza-azulado-3.webp",
+          "largura": 640,
+          "altura": 1136,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoHAAwAA4BaJQBOgCLJ7WdtHB8AAM4ytlOF27yV+mrbO6jxZ9YIB9pAcfvDLhzF5WPcFavtXELb5SIPFC1WIzFKJNTnEgAA",
+          "alt": "Sofá retrátil em veludo, cinza-azulado",
+          "ordem": 2
+        }
+      ]
+    },
+    {
+      "id": "p-008",
+      "codigo": "MD-0008",
+      "nome": "Sofá living bipartido em veludo, verde-menta",
+      "slug": "sofa-living-bipartido-em-veludo-verde-menta",
+      "descricao": "Living bipartido em dois módulos, com espuma de 22 cm D-28 soft no assento e 100% fibra siliconada. Madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, pés em madeira maciça. Almofadas decorativas acompanham; vários padrões de tecido. Revestimento em veludo.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "verde-menta"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 5,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-living-bipartido-em-veludo-verde-menta.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoMAAkAA4BaJQBOgCPqPab/QADLBQehd4FUeW9YSzLchE2CFpTFlkd3i/YxzIJB8WiWPkQAAAA=",
+          "alt": "Sofá living bipartido em veludo, verde-menta",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 96,
+        "profundidade": 91,
+        "braco": "23 cm"
+      }
+    },
+    {
+      "id": "p-009",
+      "codigo": "MD-0009",
+      "nome": "Sofá de canto com chaise e mesa lateral de madeira, cinza-claro",
+      "slug": "sofa-de-canto-com-chaise-e-mesa-lateral-de-madeira-cinza-claro",
+      "descricao": "Sofá de canto com chaise e apoio lateral em madeira maciça. Espuma D-28 soft no encosto e D-28 firme no assento, 100% fibra siliconada, madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, base e pés em madeira maciça. Almofadas decorativas acompanham; vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "cinza-claro"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 6,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-de-canto-com-chaise-e-mesa-lateral-de-madeira-cinza-claro.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoMAAkAA4BaJZQC7ADyM8zIAPjkZy98hTUUwevNNq3Bev2aAsBNTCWDXGso52561zbAAA==",
+          "alt": "Sofá de canto com chaise e mesa lateral de madeira, cinza-claro",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "largura": 256,
+        "altura": 95,
+        "profundidade": 86,
+        "braco": "20 cm",
+        "chaise": 88
+      }
+    },
+    {
+      "id": "p-010",
+      "codigo": "MD-0010",
+      "nome": "Sofá com faixa de corino nos braços em bouclê, off-white",
+      "slug": "sofa-com-faixa-de-corino-nos-bracos-em-boucle-off-white",
+      "descricao": "Sofá fixo com debrum no assento e no encosto e faixa em corino nos braços. Espuma D-28 soft, 100% fibra siliconada, madeira de eucalipto de reflorestamento. Almofadas decorativas acompanham; vários padrões de tecido. Revestimento em bouclê.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 109,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-com-faixa-de-corino-nos-bracos-em-boucle-off-white.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoMAAkAA4BaJYwCdAD+7A4mGAD0cgRXdmroqCpsDuw4C4ouvvFmRCQkznn83ZKzjoahx4GldJcI4H4uyIt6xIAA",
+          "alt": "Sofá com faixa de corino nos braços em bouclê, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "larguras": [
+          200,
+          240
+        ],
+        "altura": 95,
+        "profundidade": 86,
+        "braco": "10 cm"
+      }
+    },
+    {
+      "id": "p-011",
+      "codigo": "MD-0011",
+      "nome": "Sofá com pillow de 14 cm em linho, bege-claro",
+      "slug": "sofa-com-pillow-de-14-cm-em-linho-bege-claro",
+      "descricao": "Sofá fixo com pillow de 14 cm em espuma D-28 soft e 100% fibra siliconada. Madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, base e pés em madeira maciça. Almofadas decorativas acompanham; vários padrões de tecido. Revestimento em linho.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "bege-claro"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 110,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-com-pillow-de-14-cm-em-linho-bege-claro.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoMAAkAA4BaJZQCdAECwW/QB2EAAP5J92yBbn/ch9S431xzez+UCvy3/R6+Z12bgCio5ZRxGMrAAA==",
+          "alt": "Sofá com pillow de 14 cm em linho, bege-claro",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "larguras": [
+          200,
+          220
+        ],
+        "altura": 85,
+        "profundidade": 80,
+        "braco": "9 cm"
+      }
+    },
+    {
+      "id": "p-012",
+      "codigo": "MD-0012",
+      "nome": "Sofá com debrum em corino, caramelo",
+      "slug": "sofa-com-debrum-em-corino-caramelo",
+      "descricao": "Sofá fixo com debrum no assento e no encosto, espuma D-28 soft e 100% fibra siliconada. Madeira de eucalipto de reflorestamento, base e pés em madeira maciça. Revestimento Puríssimo, com vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "caramelo"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 7,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-com-debrum-em-corino-caramelo.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoMAAkAA4BaJQBOgButWSw4APn8KiV5uTI+V0Tnvw7iTEi/nXaTslsbvw2RkL+6hssFvFj2zUbrBoAA",
+          "alt": "Sofá com debrum em corino, caramelo",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "larguras": [
+          200,
+          240
+        ],
+        "altura": 95,
+        "profundidade": 86,
+        "braco": "10 cm"
+      }
+    },
+    {
+      "id": "p-013",
+      "codigo": "MD-0013",
+      "nome": "Sofá bipartido com debrum, cinza-claro",
+      "slug": "sofa-bipartido-com-debrum-cinza-claro",
+      "descricao": "Sofá fixo bipartido com debrum no assento e no encosto. Espuma D-28 soft, 100% fibra siliconada, madeira de eucalipto de reflorestamento, base e pés em madeira maciça. Vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "cinza-claro"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 112,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-bipartido-com-debrum-cinza-claro.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAkAA4BaJQBOgB9i1+uSaoAA/j5S5KqpaEO24+lHAOX5AdPvr4IVe4K+VU8MaSDgUDkYHXKKy8IouYAAAA==",
+          "alt": "Sofá bipartido com debrum, cinza-claro",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "larguras": [
+          220,
+          240
+        ],
+        "altura": 96,
+        "profundidade": 90,
+        "braco": "10 cm"
+      }
+    },
+    {
+      "id": "p-014",
+      "codigo": "MD-0014",
+      "nome": "Sofá de canto com chaise e molas ensacadas em bouclê, off-white",
+      "slug": "sofa-de-canto-com-chaise-e-molas-ensacadas-em-boucle-off-white",
+      "descricao": "Sofá de canto com chaise, assento com molas ensacadas e espuma D-28 soft, 100% fibra siliconada. Madeira de eucalipto de reflorestamento, revestido com espuma D-28. Revestimento em bouclê; vários padrões de tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "sofas-e-cantos",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 113,
+      "imagens": [
+        {
+          "url": "/produtos/sofa-de-canto-com-chaise-e-molas-ensacadas-em-boucle-off-white.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoMAAkAA4BaJZQC7ADyVgAIAP7YZh3TJnQ17aivchNxeE0FyQGXtgKe78zUYh6SwubdV2vGOpDWfFMjAAA=",
+          "alt": "Sofá de canto com chaise e molas ensacadas em bouclê, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 100,
+        "profundidade": 100,
+        "braco": "10 cm",
+        "chaise": 150
+      }
+    },
+    {
+      "id": "p-015",
+      "codigo": "MD-0015",
+      "nome": "Poltrona em madeira maciça com estofado, off-white",
+      "slug": "poltrona-em-madeira-macica-com-estofado-off-white",
+      "descricao": "Poltrona com estrutura e pés em madeira maciça, assento e encosto estofados em espuma D-28 soft e 100% fibra siliconada.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "poltronas",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 114,
+      "imagens": [
+        {
+          "url": "/produtos/poltrona-em-madeira-macica-com-estofado-off-white.webp",
+          "largura": 1400,
+          "altura": 1128,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMAAoAA4BaJQBOgCIgaG+SkAAA/cWCG0yMYYxI8mv6B465AYwvTYxo8Icot5kUkhtMP9wou5lOZDMv2bL8BwuVW10cwEoAAAA=",
+          "alt": "Poltrona em madeira maciça com estofado, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "altura": 88,
+        "profundidade": 74
+      }
+    },
+    {
+      "id": "p-016",
+      "codigo": "MD-0016",
+      "nome": "Poltrona com braços em corino, cinza e marrom",
+      "slug": "poltrona-com-bracos-em-corino-cinza-e-marrom",
+      "descricao": "Poltrona com pés em madeira maciça, espuma D-28 soft e 100% fibra siliconada. Slin revestido em corino Madrid marrom; assento e encosto em veludo.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "poltronas",
+      "tamanhos": [],
+      "cores": [
+        "cinza e marrom"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 115,
+      "imagens": [
+        {
+          "url": "/produtos/poltrona-com-bracos-em-corino-cinza-e-marrom.webp",
+          "largura": 1400,
+          "altura": 1060,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAkAA4BaJQBOgCL9Yg/hGtAA/qFysHcWyRGj9388W+WIiDImsA/ROX93Ptkzt/ZhzNKnzMN1fNOhJGr/IAAA",
+          "alt": "Poltrona com braços em corino, cinza e marrom",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "largura": 80,
+        "altura": 100,
+        "profundidade": 84
+      }
+    },
+    {
+      "id": "p-017",
+      "codigo": "MD-0017",
+      "nome": "Poltrona giratória redonda, off-white",
+      "slug": "poltrona-giratoria-redonda-off-white",
+      "descricao": "Poltrona giratória de linhas redondas, com almofada solta de encosto. Pés em madeira maciça Tauari, espuma D-28 soft, 100% fibra siliconada, slin revestido em tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "poltronas",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 8,
+      "imagens": [
+        {
+          "url": "/produtos/poltrona-giratoria-redonda-off-white.webp",
+          "largura": 1400,
+          "altura": 1062,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAkAA4BaJZQCdADhAIFuwAAA/opGqxFYJ+ujcaVbAvLd3JSzKjEIFntoGgwkeWqh2Mwld1Lm1Ivk26gl6K6x1+rpAAAA",
+          "alt": "Poltrona giratória redonda, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "largura": 72,
+        "altura": 96,
+        "profundidade": 87
+      }
+    },
+    {
+      "id": "p-018",
+      "codigo": "MD-0018",
+      "nome": "Poltrona fixa com almofada, off-white",
+      "slug": "poltrona-fixa-com-almofada-off-white",
+      "descricao": "Poltrona fixa com almofada solta de encosto. Pés em madeira maciça, espuma D-28 soft, 100% fibra siliconada, slin revestido em tecido.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "poltronas",
+      "tamanhos": [],
+      "cores": [
+        "off-white"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 117,
+      "imagens": [
+        {
+          "url": "/produtos/poltrona-fixa-com-almofada-off-white.webp",
+          "largura": 1400,
+          "altura": 1069,
+          "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAkAA4BaJZQCdAECvY4wQAD+xAP8wTba5gh9B3y57ApXuhjDgRGnHf6bEaC4vlkb7iyWt7E5AAAA",
+          "alt": "Poltrona fixa com almofada, off-white",
+          "ordem": 0
+        }
+      ],
+      "medidas": {
+        "largura": 72,
+        "altura": 86,
+        "profundidade": 80
+      }
+    },
+    {
+      "id": "p-019",
+      "codigo": "MD-0019",
+      "nome": "Painel ripado com LED e bancada suspensa",
+      "slug": "painel-ripado-com-led-e-bancada-suspensa",
+      "descricao": "Painel para TV em madeira com ripado vertical e fita de LED embutida, bancada suspensa com nicho aberto e gaveta off-white. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "paineis-e-racks",
+      "tamanhos": [],
+      "cores": [
+        "madeira e off-white"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 9,
+      "imagens": [
+        {
+          "url": "/produtos/painel-ripado-com-led-e-bancada-suspensa.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJagCdADbIfTTOAAA/f+ExAcXMlxwPT6qPpsLJb09TKdJ6K4FJ8SQ4U/+dPdIi7kBhHWwMRbCp3yBxg4AAA==",
+          "alt": "Painel ripado com LED e bancada suspensa",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/painel-ripado-com-led-e-bancada-suspensa-2.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJagCdADbIfTTOAAA/f+ExAcXMlxwPT6qPpsLJb09TKdJ6K4FJ8SQ4U/+dPdIi7kBhHWwMRbCp3yBxg4AAA==",
+          "alt": "Painel ripado com LED e bancada suspensa",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-020",
+      "codigo": "MD-0020",
+      "nome": "Painel ripado com LED e rack ripado",
+      "slug": "painel-ripado-com-led-e-rack-ripado",
+      "descricao": "Painel para TV em madeira com ripado e fita de LED, e rack baixo com duas portas ripadas e nichos abertos. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "paineis-e-racks",
+      "tamanhos": [],
+      "cores": [
+        "madeira"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 119,
+      "imagens": [
+        {
+          "url": "/produtos/painel-ripado-com-led-e-rack-ripado.webp",
+          "largura": 1200,
+          "altura": 1600,
+          "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoJAAwAA4BaJZgCdAEekjvA+dAAAPyPwg1weLxgirPJX7MC8NJxxzF0xQeDotR9h0zOWDZ1EPP2gAAA",
+          "alt": "Painel ripado com LED e rack ripado",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/painel-ripado-com-led-e-rack-ripado-2.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoMAAwAA4BaJbACdAEQE/ms9N6OgADyY1W7rMPCKA6M4xUY46+Gi4RIpq+0J5oQnDhr8p2U+fygAA==",
+          "alt": "Painel ripado com LED e rack ripado",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/painel-ripado-com-led-e-rack-ripado-3.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoMAAwAA4BaJbACdAEQE/ms9N6OgADyY1W7rMPCKA6M4xUY46+Gi4RIpq+0J5oQnDhr8p2U+fygAA==",
+          "alt": "Painel ripado com LED e rack ripado",
+          "ordem": 2
+        }
+      ]
+    },
+    {
+      "id": "p-021",
+      "codigo": "MD-0021",
+      "nome": "Painel com rack de pés palito, off-white e madeira",
+      "slug": "painel-com-rack-de-pes-palito-off-white-e-madeira",
+      "descricao": "Painel para TV com fundo off-white e moldura em madeira, rack com três gavetas off-white e pés palito. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "paineis-e-racks",
+      "tamanhos": [],
+      "cores": [
+        "off-white e madeira"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 120,
+      "imagens": [
+        {
+          "url": "/produtos/painel-com-rack-de-pes-palito-off-white-e-madeira.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoMAAwAA4BaJYgCdAEOs7QAAM3Tys2YZkutxRVRXPoX+euAiQP51NY85kTenyqAwxwi+a4CGubvaYVft2AAAA==",
+          "alt": "Painel com rack de pés palito, off-white e madeira",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-022",
+      "codigo": "MD-0022",
+      "nome": "Mesa de jantar em madeira maciça com cadeiras",
+      "slug": "mesa-de-jantar-em-madeira-macica-com-cadeiras",
+      "descricao": "Mesa de jantar retangular em madeira maciça, pés torneados, com cadeiras de madeira e assento em corino caramelo. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "mesas-de-jantar",
+      "tamanhos": [],
+      "cores": [
+        "madeira"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 10,
+      "imagens": [
+        {
+          "url": "/produtos/mesa-de-jantar-em-madeira-macica-com-cadeiras.webp",
+          "largura": 1400,
+          "altura": 1050,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoMAAkAA4BaJbACdAEDHxaqVM4EAAD+rJtiPip57+TMa9py+nwDPP343/fktXJmMs3yB8E2KUQPGYb6fJeoGu4Bb9d/BG+bAI5VlxQkAAA=",
+          "alt": "Mesa de jantar em madeira maciça com cadeiras",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/mesa-de-jantar-em-madeira-macica-com-cadeiras-2.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMAAwAA4BaJQBOgMXhtiULVbkAAPhaQuCy3TGWKuUkq9QTaddxGwFviXxgNexVYVFim5/AeJpiV47zQnrhLlsLJwgpSzAuS9UfRgAA",
+          "alt": "Mesa de jantar em madeira maciça com cadeiras",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/mesa-de-jantar-em-madeira-macica-com-cadeiras-3.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMAAwAA4BaJbACdAEfpzeB38ZgAPhVfwedkq8GxheWLgzucX5rvup4SIoGzdng3h2vlQS4ZfZDZddcqVTyx2fjdCy8awJycnYcsnXG3osccAAA",
+          "alt": "Mesa de jantar em madeira maciça com cadeiras",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/mesa-de-jantar-em-madeira-macica-com-cadeiras-4.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMAAwAA4BaJaACdADcyNqsAAD2vAanmJGRlhc+z4B36iAYYd0PGlaPtAG4hxFILiJ/uq86jhc9CliROWoFMGkQKcwMiTz/rTwF8UTKefNqIR5AAAA=",
+          "alt": "Mesa de jantar em madeira maciça com cadeiras",
+          "ordem": 3
+        }
+      ]
+    },
+    {
+      "id": "p-023",
+      "codigo": "MD-0023",
+      "nome": "Mesa redonda de base cruzada com 4 cadeiras, verde",
+      "slug": "mesa-redonda-de-base-cruzada-com-4-cadeiras-verde",
+      "descricao": "Mesa redonda com tampo e base cruzada em madeira, acompanhada de quatro cadeiras estofadas em verde com pés em metal.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "mesas-de-jantar",
+      "tamanhos": [],
+      "cores": [
+        "madeira e verde"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 122,
+      "imagens": [
+        {
+          "url": "/produtos/mesa-redonda-de-base-cruzada-com-4-cadeiras-verde.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoMAAwAA4BaJYwAD4ouqD2iOgAA/tYrRfSMYaP5M2uh/hcDa5V+GZ67j3xKkWcfISdvT0wR0flpeCxLV+BVfHuLGVhk+saShYGmHl2NviENUe3ABwAAAA==",
+          "alt": "Mesa redonda de base cruzada com 4 cadeiras, verde",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/mesa-redonda-de-base-cruzada-com-4-cadeiras-verde-2.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoMAAwAA4BaJYwAD4ouqD2iOgAA/tYrRfSMYaP5M2uh/hcDa5V+GZ67j3xKkWcfISdvT0wR0flpeCxLV+BVfHuLGVhk+saShYGmHl2NviENUe3ABwAAAA==",
+          "alt": "Mesa redonda de base cruzada com 4 cadeiras, verde",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-024",
+      "codigo": "MD-0024",
+      "nome": "Mesa redonda com tampo giratório e cadeiras estofadas",
+      "slug": "mesa-redonda-com-tampo-giratorio-e-cadeiras-estofadas",
+      "descricao": "Mesa redonda em madeira com prato giratório central off-white, com cadeiras estofadas de encosto matelassê. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "mesas-de-jantar",
+      "tamanhos": [],
+      "cores": [
+        "madeira e off-white"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 123,
+      "imagens": [
+        {
+          "url": "/produtos/mesa-redonda-com-tampo-giratorio-e-cadeiras-estofadas.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoHAAwAA4BaJQBOgB6I/uFAAADLNBdYNfVKmSFGsZfL3Nbl17Yp8sb/pp97PD7x3rA8wSBfO4YAAA==",
+          "alt": "Mesa redonda com tampo giratório e cadeiras estofadas",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/mesa-redonda-com-tampo-giratorio-e-cadeiras-estofadas-2.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoHAAwAA4BaJQBOgCPSRD41uaQAAPfYLiXJEsIhIxcT0OHt3gM+c5m6X5OTNfAA6dtgw3+K+Jh3LIcAAAA=",
+          "alt": "Mesa redonda com tampo giratório e cadeiras estofadas",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-025",
+      "codigo": "MD-0025",
+      "nome": "Mesa oval de base cilíndrica com cadeiras, verde",
+      "slug": "mesa-oval-de-base-cilindrica-com-cadeiras-verde",
+      "descricao": "Mesa oval com tampo e base cilíndrica em madeira, com seis cadeiras estofadas em verde e pés em metal.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "mesas-de-jantar",
+      "tamanhos": [],
+      "cores": [
+        "madeira e verde"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 124,
+      "imagens": [
+        {
+          "url": "/produtos/mesa-oval-de-base-cilindrica-com-cadeiras-verde.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoMAAwAA4BaJQBOgCHcH/4AAP7U9t2+sTab9vQFZd3/+pk2UhO8T3AV1LxHeznxu6ylnaDnuiKzo5ffq6H40cVB0r9wAAAA",
+          "alt": "Mesa oval de base cilíndrica com cadeiras, verde",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-026",
+      "codigo": "MD-0026",
+      "nome": "Bistrô alto com 4 banquetas em madeira",
+      "slug": "bistro-alto-com-4-banquetas-em-madeira",
+      "descricao": "Mesa bistrô alta redonda com base cruzada, e quatro banquetas em madeira com assento e encosto estofados em bege.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "bistros-e-banquetas",
+      "tamanhos": [],
+      "cores": [
+        "madeira e bege"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 11,
+      "imagens": [
+        {
+          "url": "/produtos/bistro-alto-com-4-banquetas-em-madeira.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMAAwAA4BaJQBOgCKKfaRbAAD+6HDhoHkfsASf3sjgvmqeMDnGf0mSFc0RzgLDcT9DVuzKqdMg1W84YAAAAA==",
+          "alt": "Bistrô alto com 4 banquetas em madeira",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/bistro-alto-com-4-banquetas-em-madeira-2.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMAAwAA4BaJQBOgCKKfaRbAAD+6HDhoHkfsASf3sjgvmqeMDnGf0mSFc0RzgLDcT9DVuzKqdMg1W84YAAAAA==",
+          "alt": "Bistrô alto com 4 banquetas em madeira",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/bistro-alto-com-4-banquetas-em-madeira-3.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMAAwAA4BaJQBOgCKKfaRbAAD+6HDhoHkfsASf3sjgvmqeMDnGf0mSFc0RzgLDcT9DVuzKqdMg1W84YAAAAA==",
+          "alt": "Bistrô alto com 4 banquetas em madeira",
+          "ordem": 2
+        }
+      ]
+    },
+    {
+      "id": "p-027",
+      "codigo": "MD-0027",
+      "nome": "Bistrô com banquetas de palhinha",
+      "slug": "bistro-com-banquetas-de-palhinha",
+      "descricao": "Mesa bistrô redonda com base cruzada em madeira e quatro banquetas com encosto em palhinha e assento estofado.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "bistros-e-banquetas",
+      "tamanhos": [],
+      "cores": [
+        "madeira e palhinha"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 126,
+      "imagens": [
+        {
+          "url": "/produtos/bistro-com-banquetas-de-palhinha.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAwAA4BaJQBOgCPL+Xi/QAD+Um+BPqEV+q2ntICkPnAsdw+AtNniYT6054bocQ59OzKv3JAAAA==",
+          "alt": "Bistrô com banquetas de palhinha",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-028",
+      "codigo": "MD-0028",
+      "nome": "Banqueta alta em madeira com assento estofado",
+      "slug": "banqueta-alta-em-madeira-com-assento-estofado",
+      "descricao": "Banqueta alta em madeira maciça, encosto ripado com estofado e assento estofado em bege, apoio para os pés.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "bistros-e-banquetas",
+      "tamanhos": [],
+      "cores": [
+        "madeira e bege"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 127,
+      "imagens": [
+        {
+          "url": "/produtos/banqueta-alta-em-madeira-com-assento-estofado.webp",
+          "largura": 1282,
+          "altura": 1600,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoKAAwAA4BaJQBOgBulNiIZwAD+68EJktJ7AF3DEG9pq5X7f7yKP0X+zKAwdcnAu075G7r6ePB0ZbFrtPu6JSKGcCyLHlbyWkAAAA==",
+          "alt": "Banqueta alta em madeira com assento estofado",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-029",
+      "codigo": "MD-0029",
+      "nome": "Cadeira estofada com pés em metal, verde",
+      "slug": "cadeira-estofada-com-pes-em-metal-verde",
+      "descricao": "Cadeira de jantar com concha estofada em tecido verde e pés finos em metal.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "cadeiras",
+      "tamanhos": [],
+      "cores": [
+        "verde"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 128,
+      "imagens": [
+        {
+          "url": "/produtos/cadeira-estofada-com-pes-em-metal-verde.webp",
+          "largura": 1400,
+          "altura": 1400,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoMAAwAA4BaJaQAAl2I9gfAAAD++Ln3AIn400rCidFDDJGtGmX4S+UGHX/T6tYwatgZk7qbqwJLKvBESS6rrAAA",
+          "alt": "Cadeira estofada com pés em metal, verde",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-030",
+      "codigo": "MD-0030",
+      "nome": "Cama box com cabeceira ripada e criado-mudo",
+      "slug": "cama-box-com-cabeceira-ripada-e-criado-mudo",
+      "descricao": "Cama box com cabeceira de painel em madeira e ripado, colchão, e criado-mudo de duas gavetas em madeira. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camas-e-colchoes",
+      "tamanhos": [],
+      "cores": [
+        "madeira e off-white"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 12,
+      "imagens": [
+        {
+          "url": "/produtos/cama-box-com-cabeceira-ripada-e-criado-mudo.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoHAAwAA4BaJZACdAD0pu6q5d4AAP29GXZYZ3StbqLFh4dapynrVE6uGe1DD14LooI3kU+YaLEZNPRPEfigJoCU7ucrgAAA",
+          "alt": "Cama box com cabeceira ripada e criado-mudo",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-031",
+      "codigo": "MD-0031",
+      "nome": "Cama box com colchão",
+      "slug": "cama-box-com-colchao",
+      "descricao": "Cama box de base preta com colchão. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camas-e-colchoes",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 130,
+      "imagens": [
+        {
+          "url": "/produtos/cama-box-com-colchao.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoHAAwAA4BaJQBOgCPOxylF/mgAAPKMXt8mWXVc/aWYudx05JI7XZ+9ts4A0UYW+TChs4QYDVBlESfke34ok6SAAAA=",
+          "alt": "Cama box com colchão",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-032",
+      "codigo": "MD-0032",
+      "nome": "Cômoda em madeira com 5 gavetas e porta",
+      "slug": "comoda-em-madeira-com-5-gavetas-e-porta",
+      "descricao": "Cômoda em madeira com cinco gavetas, uma delas com chave, e porta lateral. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "comodas-e-roupeiros",
+      "tamanhos": [],
+      "cores": [
+        "madeira"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 131,
+      "imagens": [
+        {
+          "url": "/produtos/comoda-em-madeira-com-5-gavetas-e-porta.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoHAAwAA4BaJaACdAEOzCvZ/ugAAPsFnbf7pNss45CYhY+Hm4OL9PrDD96mxHeAOM4pO4UAAAA=",
+          "alt": "Cômoda em madeira com 5 gavetas e porta",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/comoda-em-madeira-com-5-gavetas-e-porta-2.webp",
+          "largura": 640,
+          "altura": 1138,
+          "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoHAAwAA4BaJaACdAEOzCvZ/ugAAPsFnbf7pNss45CYhY+Hm4OL9PrDD96mxHeAOM4pO4UAAAA=",
+          "alt": "Cômoda em madeira com 5 gavetas e porta",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-033",
+      "codigo": "MD-0033",
+      "nome": "Roupeiro Oregon 4 portas, off-white e madeira",
+      "slug": "roupeiro-oregon-4-portas-off-white-e-madeira",
+      "descricao": "Roupeiro Oregon de quatro portas, frentes off-white com puxadores e laterais em madeira, duas gavetas externas. Foto na loja.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "comodas-e-roupeiros",
+      "tamanhos": [],
+      "cores": [
+        "off-white e madeira"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 132,
+      "imagens": [
+        {
+          "url": "/produtos/roupeiro-oregon-4-portas-off-white-e-madeira.webp",
+          "largura": 1200,
+          "altura": 1600,
+          "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoJAAwAA4BaJZACdADdCw43ICAA/NbfAnD0C+h+nW4mFaVIgvDmFTQbwCI0T23vmP+A7xAIvAlsmGCIfAnGOdXAAAA=",
+          "alt": "Roupeiro Oregon 4 portas, off-white e madeira",
+          "ordem": 0
+        }
+      ]
+    }
+  ],
+  "hero": [
+    {
+      "url": "/produtos/sofa-retratil-e-reclinavel-pillow-top-bege.webp",
+      "largura": 1400,
+      "altura": 1060,
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAkAA4BaJYwCdAC1E7voAAD9UbHNRLC9oqkF6Dv7shaUvxD6NNuxoudGAjL4yeHSwfQ3PcfzgAAA",
+      "alt": "Sofá retrátil e reclinável pillow top, bege",
+      "ordem": 0,
+      "slug": "sofa-retratil-e-reclinavel-pillow-top-bege"
+    },
+    {
+      "url": "/produtos/sofa-retratil-e-reclinavel-com-porta-copos-off-white.webp",
+      "largura": 1400,
+      "altura": 1060,
+      "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoMAAkAA4BaJZQCdAEfT7rigAD5XUwfCU/W+rB2eSR0VqVJckWb/fexsC/619pAAAA=",
+      "alt": "Sofá retrátil e reclinável com porta-copos, off-white",
+      "ordem": 0,
+      "slug": "sofa-retratil-e-reclinavel-com-porta-copos-off-white"
+    },
+    {
+      "url": "/produtos/sofa-retratil-e-reclinavel-pillow-top-em-boucle-off-white.webp",
+      "largura": 1400,
+      "altura": 1060,
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoMAAkAA4BaJYwCdAEQXNyjVgMQAADOJ737Wk1xVD1gWAmJ2oAi+BCr3T2QCWzpKw8PVwnPVy/zPSrAAAA=",
+      "alt": "Sofá retrátil e reclinável pillow top em bouclê, off-white",
+      "ordem": 0,
+      "slug": "sofa-retratil-e-reclinavel-pillow-top-em-boucle-off-white"
+    },
+    {
+      "url": "/produtos/sofa-retratil-em-veludo-cinza-azulado.webp",
+      "largura": 1200,
+      "altura": 1600,
+      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoJAAwAA4BaJZACdH8AGNuyO+qPAAD+qqWGEvs1W3Kf+qnj0cz3vuz0w/Fj32JhubPDpxzdszFDhDPU9WVCXrUj/22iqfWosQ78AAAA",
+      "alt": "Sofá retrátil em veludo, cinza-azulado",
+      "ordem": 0,
+      "slug": "sofa-retratil-em-veludo-cinza-azulado"
+    },
+    {
+      "url": "/produtos/sofa-living-bipartido-em-veludo-verde-menta.webp",
+      "largura": 1400,
+      "altura": 1060,
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoMAAkAA4BaJQBOgCPqPab/QADLBQehd4FUeW9YSzLchE2CFpTFlkd3i/YxzIJB8WiWPkQAAAA=",
+      "alt": "Sofá living bipartido em veludo, verde-menta",
+      "ordem": 0,
+      "slug": "sofa-living-bipartido-em-veludo-verde-menta"
+    },
+    {
+      "url": "/produtos/sofa-de-canto-com-chaise-e-mesa-lateral-de-madeira-cinza-claro.webp",
+      "largura": 1400,
+      "altura": 1060,
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoMAAkAA4BaJZQC7ADyM8zIAPjkZy98hTUUwevNNq3Bev2aAsBNTCWDXGso52561zbAAA==",
+      "alt": "Sofá de canto com chaise e mesa lateral de madeira, cinza-claro",
+      "ordem": 0,
+      "slug": "sofa-de-canto-com-chaise-e-mesa-lateral-de-madeira-cinza-claro"
+    },
+    {
+      "url": "/produtos/sofa-com-debrum-em-corino-caramelo.webp",
+      "largura": 1400,
+      "altura": 1060,
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoMAAkAA4BaJQBOgButWSw4APn8KiV5uTI+V0Tnvw7iTEi/nXaTslsbvw2RkL+6hssFvFj2zUbrBoAA",
+      "alt": "Sofá com debrum em corino, caramelo",
+      "ordem": 0,
+      "slug": "sofa-com-debrum-em-corino-caramelo"
+    },
+    {
+      "url": "/produtos/poltrona-giratoria-redonda-off-white.webp",
+      "largura": 1400,
+      "altura": 1062,
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAkAA4BaJZQCdADhAIFuwAAA/opGqxFYJ+ujcaVbAvLd3JSzKjEIFntoGgwkeWqh2Mwld1Lm1Ivk26gl6K6x1+rpAAAA",
+      "alt": "Poltrona giratória redonda, off-white",
+      "ordem": 0,
+      "slug": "poltrona-giratoria-redonda-off-white"
+    },
+    {
+      "url": "/produtos/painel-ripado-com-led-e-bancada-suspensa.webp",
+      "largura": 1400,
+      "altura": 1400,
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJagCdADbIfTTOAAA/f+ExAcXMlxwPT6qPpsLJb09TKdJ6K4FJ8SQ4U/+dPdIi7kBhHWwMRbCp3yBxg4AAA==",
+      "alt": "Painel ripado com LED e bancada suspensa",
+      "ordem": 0,
+      "slug": "painel-ripado-com-led-e-bancada-suspensa"
+    },
+    {
+      "url": "/produtos/mesa-de-jantar-em-madeira-macica-com-cadeiras.webp",
+      "largura": 1400,
+      "altura": 1050,
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoMAAkAA4BaJbACdAEDHxaqVM4EAAD+rJtiPip57+TMa9py+nwDPP343/fktXJmMs3yB8E2KUQPGYb6fJeoGu4Bb9d/BG+bAI5VlxQkAAA=",
+      "alt": "Mesa de jantar em madeira maciça com cadeiras",
+      "ordem": 0,
+      "slug": "mesa-de-jantar-em-madeira-macica-com-cadeiras"
+    },
+    {
+      "url": "/produtos/bistro-alto-com-4-banquetas-em-madeira.webp",
+      "largura": 1400,
+      "altura": 1400,
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMAAwAA4BaJQBOgCKKfaRbAAD+6HDhoHkfsASf3sjgvmqeMDnGf0mSFc0RzgLDcT9DVuzKqdMg1W84YAAAAA==",
+      "alt": "Bistrô alto com 4 banquetas em madeira",
+      "ordem": 0,
+      "slug": "bistro-alto-com-4-banquetas-em-madeira"
+    },
+    {
+      "url": "/produtos/cama-box-com-cabeceira-ripada-e-criado-mudo.webp",
+      "largura": 640,
+      "altura": 1138,
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoHAAwAA4BaJZACdAD0pu6q5d4AAP29GXZYZ3StbqLFh4dapynrVE6uGe1DD14LooI3kU+YaLEZNPRPEfigJoCU7ucrgAAA",
+      "alt": "Cama box com cabeceira ripada e criado-mudo",
+      "ordem": 0,
+      "slug": "cama-box-com-cabeceira-ripada-e-criado-mudo"
+    }
+  ]
+}

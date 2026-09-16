@@ -1,0 +1,307 @@
+{
+  "origem": "_fonte/minas",
+  "colhido": { "A": "_fonte/colhido/A", "B": "_fonte/colhido/B" },
+  "categorias": [
+    "Sofás retráteis",
+    "Sofás e cantos",
+    "Poltronas",
+    "Painéis e racks",
+    "Mesas de jantar",
+    "Bistrôs e banquetas",
+    "Cadeiras",
+    "Camas e colchões",
+    "Cômodas e roupeiros"
+  ],
+  "itens": [
+    {
+      "nome": "Sofá retrátil e reclinável pillow top, bege",
+      "categoria": "Sofás retráteis",
+      "local": "A/02.jpg",
+      "corte": 1090,
+      "cor": "bege",
+      "destaque": true,
+      "descricao": "Assento retrátil e encosto reclinável, com pillow top de 20 cm em espuma D-28 soft e molas ensacadas. Estrutura em madeira de eucalipto de reflorestamento, assento com molas Bonnel entrelaçadas com percintas elásticas, 100% fibra siliconada. Vários padrões de tecido.",
+      "medidas": { "altura": 100, "profundidade": 110, "braco": "20 ou 25 cm", "modulos": "0,80 · 0,90 · 1,00 · 1,20 m" }
+    },
+    {
+      "nome": "Sofá retrátil e reclinável com porta-copos, off-white",
+      "categoria": "Sofás retráteis",
+      "local": "A/05.jpg",
+      "corte": 1090,
+      "cor": "off-white",
+      "destaque": true,
+      "descricao": "Assento retrátil, encosto bipartido e reclinável, com acessório porta-copo opcional. Espuma D-28 soft, 100% fibra siliconada, madeira de eucalipto de reflorestamento e assento com molas Bonnel entrelaçadas com percintas elásticas. Revestimento Puríssimo, com vários padrões de tecido.",
+      "medidas": { "altura": 100, "profundidade": 110, "braco": "20 ou 25 cm", "modulos": "0,80 · 0,90 · 1,00 · 1,20 m" }
+    },
+    {
+      "nome": "Sofá retrátil e reclinável pillow top em bouclê, off-white",
+      "categoria": "Sofás retráteis",
+      "local": "A/08.jpg",
+      "corte": 1090,
+      "cor": "off-white",
+      "destaque": true,
+      "descricao": "Pillow top de 20 cm com espuma D-28 soft e molas ensacadas, encosto reclinável. Madeira de eucalipto de reflorestamento, assento com molas Bonnel entrelaçadas mais molas ensacadas, 100% fibra siliconada. Revestimento em bouclê; vários padrões de tecido.",
+      "medidas": { "altura": 115, "profundidade": 110, "braco": "20 ou 25 cm", "modulos": "0,80 · 0,90 · 1,00 · 1,20 m" }
+    },
+    {
+      "nome": "Sofá retrátil e reclinável pillow top em veludo, cinza-chumbo",
+      "categoria": "Sofás retráteis",
+      "local": "A/12.jpg",
+      "corte": 1090,
+      "cor": "cinza-chumbo",
+      "descricao": "Assento retrátil e encosto reclinável, pillow top de 20 cm em espuma D-28 soft com molas ensacadas. Estrutura em madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, 100% fibra siliconada. Revestimento em veludo; vários padrões de tecido.",
+      "medidas": { "altura": 100, "profundidade": 110, "braco": "20 ou 25 cm", "modulos": "0,80 · 0,90 · 1,00 · 1,20 m" }
+    },
+    {
+      "nome": "Sofá retrátil em suede, bege",
+      "categoria": "Sofás retráteis",
+      "local": "A/15.jpg",
+      "cor": "bege",
+      "descricao": "Sofá retrátil e reclinável em suede bege, com almofadas soltas de encosto e pillow top. Foto na loja."
+    },
+    {
+      "nome": "Sofá retrátil pillow top, branco",
+      "categoria": "Sofás retráteis",
+      "local": "A/16.jpg",
+      "extras": ["B/06.jpg"],
+      "cor": "branco",
+      "descricao": "Sofá retrátil e reclinável branco, com pillow top e encosto bipartido. Foto na loja."
+    },
+    {
+      "nome": "Sofá retrátil em veludo, cinza-azulado",
+      "categoria": "Sofás retráteis",
+      "local": "A/29.jpg",
+      "extras": ["A/30.jpg", "B/05.jpg"],
+      "cor": "cinza-azulado",
+      "destaque": true,
+      "descricao": "Sofá retrátil e reclinável em veludo cinza-azulado, assento em gomos e encosto alto com pillow top. Foto na loja."
+    },
+
+    {
+      "nome": "Sofá living bipartido em veludo, verde-menta",
+      "categoria": "Sofás e cantos",
+      "local": "A/00.jpg",
+      "corte": 1090,
+      "cor": "verde-menta",
+      "destaque": true,
+      "descricao": "Living bipartido em dois módulos, com espuma de 22 cm D-28 soft no assento e 100% fibra siliconada. Madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, pés em madeira maciça. Almofadas decorativas acompanham; vários padrões de tecido. Revestimento em veludo.",
+      "medidas": { "altura": 96, "profundidade": 91, "braco": "23 cm" }
+    },
+    {
+      "nome": "Sofá de canto com chaise e mesa lateral de madeira, cinza-claro",
+      "categoria": "Sofás e cantos",
+      "local": "A/01.jpg",
+      "corte": 1090,
+      "cor": "cinza-claro",
+      "destaque": true,
+      "descricao": "Sofá de canto com chaise e apoio lateral em madeira maciça. Espuma D-28 soft no encosto e D-28 firme no assento, 100% fibra siliconada, madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, base e pés em madeira maciça. Almofadas decorativas acompanham; vários padrões de tecido.",
+      "medidas": { "largura": 256, "altura": 95, "profundidade": 86, "braco": "20 cm", "chaise": 88 }
+    },
+    {
+      "nome": "Sofá com faixa de corino nos braços em bouclê, off-white",
+      "categoria": "Sofás e cantos",
+      "local": "A/03.jpg",
+      "corte": 1090,
+      "cor": "off-white",
+      "descricao": "Sofá fixo com debrum no assento e no encosto e faixa em corino nos braços. Espuma D-28 soft, 100% fibra siliconada, madeira de eucalipto de reflorestamento. Almofadas decorativas acompanham; vários padrões de tecido. Revestimento em bouclê.",
+      "medidas": { "larguras": [200, 240], "altura": 95, "profundidade": 86, "braco": "10 cm" }
+    },
+    {
+      "nome": "Sofá com pillow de 14 cm em linho, bege-claro",
+      "categoria": "Sofás e cantos",
+      "local": "A/04.jpg",
+      "corte": 1090,
+      "cor": "bege-claro",
+      "descricao": "Sofá fixo com pillow de 14 cm em espuma D-28 soft e 100% fibra siliconada. Madeira de eucalipto de reflorestamento, molas Bonnel entrelaçadas com percintas elásticas, base e pés em madeira maciça. Almofadas decorativas acompanham; vários padrões de tecido. Revestimento em linho.",
+      "medidas": { "larguras": [200, 220], "altura": 85, "profundidade": 80, "braco": "9 cm" }
+    },
+    {
+      "nome": "Sofá com debrum em corino, caramelo",
+      "categoria": "Sofás e cantos",
+      "local": "A/06.jpg",
+      "corte": 1090,
+      "cor": "caramelo",
+      "destaque": true,
+      "descricao": "Sofá fixo com debrum no assento e no encosto, espuma D-28 soft e 100% fibra siliconada. Madeira de eucalipto de reflorestamento, base e pés em madeira maciça. Revestimento Puríssimo, com vários padrões de tecido.",
+      "medidas": { "larguras": [200, 240], "altura": 95, "profundidade": 86, "braco": "10 cm" }
+    },
+    {
+      "nome": "Sofá bipartido com debrum, cinza-claro",
+      "categoria": "Sofás e cantos",
+      "local": "A/07.jpg",
+      "corte": 1090,
+      "cor": "cinza-claro",
+      "descricao": "Sofá fixo bipartido com debrum no assento e no encosto. Espuma D-28 soft, 100% fibra siliconada, madeira de eucalipto de reflorestamento, base e pés em madeira maciça. Vários padrões de tecido.",
+      "medidas": { "larguras": [220, 240], "altura": 96, "profundidade": 90, "braco": "10 cm" }
+    },
+    {
+      "nome": "Sofá de canto com chaise e molas ensacadas em bouclê, off-white",
+      "categoria": "Sofás e cantos",
+      "local": "A/10.jpg",
+      "corte": 1090,
+      "cor": "off-white",
+      "descricao": "Sofá de canto com chaise, assento com molas ensacadas e espuma D-28 soft, 100% fibra siliconada. Madeira de eucalipto de reflorestamento, revestido com espuma D-28. Revestimento em bouclê; vários padrões de tecido.",
+      "medidas": { "altura": 100, "profundidade": 100, "braco": "10 cm", "chaise": 150 }
+    },
+
+    {
+      "nome": "Poltrona em madeira maciça com estofado, off-white",
+      "categoria": "Poltronas",
+      "local": "A/09.jpg",
+      "corte": 1160,
+      "cor": "off-white",
+      "descricao": "Poltrona com estrutura e pés em madeira maciça, assento e encosto estofados em espuma D-28 soft e 100% fibra siliconada.",
+      "medidas": { "altura": 88, "profundidade": 74 }
+    },
+    {
+      "nome": "Poltrona com braços em corino, cinza e marrom",
+      "categoria": "Poltronas",
+      "local": "A/11.jpg",
+      "corte": 1090,
+      "cor": "cinza e marrom",
+      "descricao": "Poltrona com pés em madeira maciça, espuma D-28 soft e 100% fibra siliconada. Slin revestido em corino Madrid marrom; assento e encosto em veludo.",
+      "medidas": { "largura": 80, "altura": 100, "profundidade": 84 }
+    },
+    {
+      "nome": "Poltrona giratória redonda, off-white",
+      "categoria": "Poltronas",
+      "local": "A/13.jpg",
+      "corte": 1092,
+      "cor": "off-white",
+      "destaque": true,
+      "descricao": "Poltrona giratória de linhas redondas, com almofada solta de encosto. Pés em madeira maciça Tauari, espuma D-28 soft, 100% fibra siliconada, slin revestido em tecido.",
+      "medidas": { "largura": 72, "altura": 96, "profundidade": 87 }
+    },
+    {
+      "nome": "Poltrona fixa com almofada, off-white",
+      "categoria": "Poltronas",
+      "local": "A/14.jpg",
+      "corte": 1100,
+      "cor": "off-white",
+      "descricao": "Poltrona fixa com almofada solta de encosto. Pés em madeira maciça, espuma D-28 soft, 100% fibra siliconada, slin revestido em tecido.",
+      "medidas": { "largura": 72, "altura": 86, "profundidade": 80 }
+    },
+
+    {
+      "nome": "Painel ripado com LED e bancada suspensa",
+      "categoria": "Painéis e racks",
+      "local": "A/20.jpg",
+      "extras": ["B/00.jpg"],
+      "cor": "madeira e off-white",
+      "destaque": true,
+      "descricao": "Painel para TV em madeira com ripado vertical e fita de LED embutida, bancada suspensa com nicho aberto e gaveta off-white. Foto na loja."
+    },
+    {
+      "nome": "Painel ripado com LED e rack ripado",
+      "categoria": "Painéis e racks",
+      "local": "A/21.jpg",
+      "extras": ["B/01.jpg", "B/02.jpg"],
+      "cor": "madeira",
+      "descricao": "Painel para TV em madeira com ripado e fita de LED, e rack baixo com duas portas ripadas e nichos abertos. Foto na loja."
+    },
+    {
+      "nome": "Painel com rack de pés palito, off-white e madeira",
+      "categoria": "Painéis e racks",
+      "local": "A/24.jpg",
+      "cor": "off-white e madeira",
+      "descricao": "Painel para TV com fundo off-white e moldura em madeira, rack com três gavetas off-white e pés palito. Foto na loja."
+    },
+
+    {
+      "nome": "Mesa de jantar em madeira maciça com cadeiras",
+      "categoria": "Mesas de jantar",
+      "local": "A/25.jpg",
+      "extras": ["A/19.jpg", "B/08.jpg", "B/14.jpg"],
+      "cor": "madeira",
+      "destaque": true,
+      "descricao": "Mesa de jantar retangular em madeira maciça, pés torneados, com cadeiras de madeira e assento em corino caramelo. Foto na loja."
+    },
+    {
+      "nome": "Mesa redonda de base cruzada com 4 cadeiras, verde",
+      "categoria": "Mesas de jantar",
+      "local": "A/17.jpg",
+      "extras": ["B/11.jpg"],
+      "cor": "madeira e verde",
+      "descricao": "Mesa redonda com tampo e base cruzada em madeira, acompanhada de quatro cadeiras estofadas em verde com pés em metal."
+    },
+    {
+      "nome": "Mesa redonda com tampo giratório e cadeiras estofadas",
+      "categoria": "Mesas de jantar",
+      "local": "A/22.jpg",
+      "extras": ["B/03.jpg"],
+      "cor": "madeira e off-white",
+      "descricao": "Mesa redonda em madeira com prato giratório central off-white, com cadeiras estofadas de encosto matelassê. Foto na loja."
+    },
+    {
+      "nome": "Mesa oval de base cilíndrica com cadeiras, verde",
+      "categoria": "Mesas de jantar",
+      "local": "B/16.jpg",
+      "cor": "madeira e verde",
+      "descricao": "Mesa oval com tampo e base cilíndrica em madeira, com seis cadeiras estofadas em verde e pés em metal."
+    },
+
+    {
+      "nome": "Bistrô alto com 4 banquetas em madeira",
+      "categoria": "Bistrôs e banquetas",
+      "local": "A/18.jpg",
+      "extras": ["B/12.jpg", "B/17.jpg"],
+      "cor": "madeira e bege",
+      "destaque": true,
+      "descricao": "Mesa bistrô alta redonda com base cruzada, e quatro banquetas em madeira com assento e encosto estofados em bege."
+    },
+    {
+      "nome": "Bistrô com banquetas de palhinha",
+      "categoria": "Bistrôs e banquetas",
+      "local": "B/09.jpg",
+      "cor": "madeira e palhinha",
+      "descricao": "Mesa bistrô redonda com base cruzada em madeira e quatro banquetas com encosto em palhinha e assento estofado."
+    },
+    {
+      "nome": "Banqueta alta em madeira com assento estofado",
+      "categoria": "Bistrôs e banquetas",
+      "local": "B/10.jpg",
+      "cor": "madeira e bege",
+      "descricao": "Banqueta alta em madeira maciça, encosto ripado com estofado e assento estofado em bege, apoio para os pés."
+    },
+
+    {
+      "nome": "Cadeira estofada com pés em metal, verde",
+      "categoria": "Cadeiras",
+      "local": "B/07.jpg",
+      "cor": "verde",
+      "descricao": "Cadeira de jantar com concha estofada em tecido verde e pés finos em metal."
+    },
+
+    {
+      "nome": "Cama box com cabeceira ripada e criado-mudo",
+      "categoria": "Camas e colchões",
+      "local": "A/23.jpg",
+      "cor": "madeira e off-white",
+      "destaque": true,
+      "descricao": "Cama box com cabeceira de painel em madeira e ripado, colchão, e criado-mudo de duas gavetas em madeira. Foto na loja."
+    },
+    {
+      "nome": "Cama box com colchão",
+      "categoria": "Camas e colchões",
+      "local": "A/28.jpg",
+      "cor": "preto e branco",
+      "descricao": "Cama box de base preta com colchão. Foto na loja."
+    },
+
+    {
+      "nome": "Cômoda em madeira com 5 gavetas e porta",
+      "categoria": "Cômodas e roupeiros",
+      "local": "A/26.jpg",
+      "extras": ["B/04.jpg"],
+      "cor": "madeira",
+      "descricao": "Cômoda em madeira com cinco gavetas, uma delas com chave, e porta lateral. Foto na loja."
+    },
+    {
+      "nome": "Roupeiro Oregon 4 portas, off-white e madeira",
+      "categoria": "Cômodas e roupeiros",
+      "local": "A/27.jpg",
+      "cor": "off-white e madeira",
+      "descricao": "Roupeiro Oregon de quatro portas, frentes off-white com puxadores e laterais em madeira, duas gavetas externas. Foto na loja."
+    }
+  ]
+}

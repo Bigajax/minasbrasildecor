@@ -1,0 +1,1368 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   MINAS BRASIL DECOR — tokens.
+
+   Loja de móveis de Contagem, MG: sofás retráteis, mesas de madeira
+   maciça, painéis ripados, cômodas, camas box. A página é uma parede
+   de gesso clara; a madeira mel é a cor que a loja tem de verdade
+   (todas as fotos têm um pé, um tampo, um ripado nela) e vira a
+   superfície da marca; a tinta preta do selo fecha o topo, o rodapé e
+   os botões; o vermelho da montanha do selo aparece pouco e pequeno:
+   a marca, a porta acesa, a etiqueta.
+
+   A assinatura é A COTA: a linha de desenho técnico com os traços nas
+   pontas e a medida no meio, tirada da ficha de fábrica que vem no pé
+   das artes. Ela desenha a largura no hero, senta embaixo de cada
+   cartão e monta a ficha da peça.
+
+   Os nomes herdados da base (agua, marinho, raia, piscina, veludo,
+   ouro, marfim, fio, papel, cimento, marrom, nude) seguem existindo
+   como apelidos das cores novas, porque o painel e o catálogo são
+   escritos neles.
+   ───────────────────────────────────────────────────────────── */
+@theme static {
+  --color-parede: #f3f1ec;
+  --color-branco: #ffffff;
+  --color-feltro: #e9e5dd;
+  --color-feltro-2: #ddd7cc;
+  --color-madeira: #b5722f;
+  --color-madeira-escura: #955c22;
+  --color-madeira-clara: #d69a55;
+  --color-tinta: #1b1815;
+  --color-tinta-2: #2a2622;
+  --color-tinta-fraca: #6a635b;
+  --color-minas: #b8232e;
+  --color-minas-escuro: #93181f;
+  --color-linha: #d8d2c7;
+  --color-verde: #1f8f4e;
+
+  /* apelidos da base */
+  --color-piscina: #e9e5dd;
+  --color-piscina-2: #ddd7cc;
+  --color-agua: #b5722f;
+  --color-agua-escura: #955c22;
+  --color-agua-clara: #d69a55;
+  --color-marinho: #1b1815;
+  --color-marinho-2: #2a2622;
+  --color-raia: #b8232e;
+  --color-raia-escura: #93181f;
+  --color-papel: #f3f1ec;
+  --color-papel-2: #e9e5dd;
+  --color-veludo: #1b1815;
+  --color-carvao: #2a2622;
+  --color-carvao-claro: #3a3530;
+  --color-ouro: #b5722f;
+  --color-ouro-claro: #d69a55;
+  --color-ouro-texto: #955c22;
+  --color-ouro-fundo: #b5722f;
+  --color-marfim: #f3f1ec;
+  --color-marfim-fraco: #b3aa9d;
+  --color-fio: #3a3530;
+  --color-off-white: #ffffff;
+  --color-cimento-claro: #e9e5dd;
+  --color-cimento: #ddd7cc;
+  --color-cimento-medio: #b3aa9d;
+  --color-cimento-escuro: #6a635b;
+  --color-marrom: #955c22;
+  --color-marrom-fundo: #1b1815;
+  --color-nude: #b5722f;
+  --color-nude-claro: #f4e6d4;
+  --color-verde-claro: #e4f3ea;
+}
+
+:root {
+  --parede: #f3f1ec;
+  --branco: #ffffff;
+  --feltro: #e9e5dd;
+  --feltro-2: #ddd7cc;
+  --madeira: #b5722f;
+  --madeira-escura: #955c22;
+  --madeira-clara: #d69a55;
+  --tinta: #1b1815;
+  --tinta-2: #2a2622;
+  --tinta-fraca: #6a635b;
+  --minas: #b8232e;
+  --minas-escuro: #93181f;
+  --linha: #d8d2c7;
+  --verde: #1f8f4e;
+
+  /* apelidos da base */
+  --piscina: var(--feltro);
+  --piscina-2: var(--feltro-2);
+  --agua: var(--madeira);
+  --agua-escura: var(--madeira-escura);
+  --agua-clara: var(--madeira-clara);
+  --marinho: var(--tinta);
+  --marinho-2: var(--tinta-2);
+  --raia: var(--minas);
+  --raia-escura: var(--minas-escuro);
+  --papel: var(--parede);
+  --papel-2: var(--feltro);
+  --veludo: var(--tinta);
+  --carvao: var(--tinta-2);
+  --carvao-claro: #3a3530;
+  --ouro: var(--madeira);
+  --ouro-claro: var(--madeira-clara);
+  --ouro-texto: var(--madeira-escura);
+  --ouro-fundo: var(--madeira);
+  --marfim: var(--parede);
+  --marfim-fraco: #b3aa9d;
+  --fio: #3a3530;
+  --off-white: #ffffff;
+  --cimento-claro: var(--feltro);
+  --cimento: var(--feltro-2);
+  --cimento-medio: #b3aa9d;
+  --cimento-escuro: var(--tinta-fraca);
+  --marrom: var(--madeira-escura);
+  --marrom-fundo: var(--tinta);
+  --nude: var(--madeira);
+
+  --raio: 4px; /* móvel: canto reto com um chanfro mínimo, nada de pílula */
+  --raio-mini: 3px;
+  --transicao: 200ms ease-out;
+
+  --largura: 96rem;
+  --sangria: clamp(1rem, 3.2vw, 3.5rem);
+  --linha-peso: 1px;
+
+  /* a superfície corrente: a parede. A .escuro e a .madeira trocam por dentro. */
+  --sup: var(--parede);
+  --sup-2: var(--feltro);
+  --texto: var(--tinta);
+  --texto-fraco: var(--tinta-fraca);
+  --risco: var(--linha);
+  --acento-texto: var(--madeira-escura);
+  --cota: var(--tinta);
+}
+
+html {
+  background-color: var(--parede);
+  color-scheme: light;
+}
+
+/* As famílias moram no body, não no :root: as variáveis --fonte-* do
+   next/font entram pela classe do body. */
+body {
+  --font-display: var(--fonte-display), "Bricolage Grotesque", "Arial Narrow", sans-serif;
+  --font-corpo: var(--fonte-corpo), "Instrument Sans", system-ui, sans-serif;
+  --font-mono: var(--font-corpo);
+  color: var(--tinta);
+  font-family: var(--font-corpo);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: var(--parede);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   AS SUPERFÍCIES. .escuro é a tinta (aviso, rodapé, faixa do
+   WhatsApp, "como é feito"); .madeira é o mel (o bloco da sala de
+   jantar, a placa do ambiente acesa); .branco é o cartão.
+   ───────────────────────────────────────────────────────────── */
+.escuro {
+  --sup: var(--tinta);
+  --sup-2: var(--tinta-2);
+  --texto: var(--parede);
+  --texto-fraco: var(--marfim-fraco);
+  --risco: rgba(243, 241, 236, 0.16);
+  --acento-texto: var(--madeira-clara);
+  --cota: var(--parede);
+  background-color: var(--tinta);
+  color: var(--parede);
+  color-scheme: dark;
+}
+.madeira,
+.agua {
+  --sup: var(--madeira);
+  --sup-2: var(--madeira-escura);
+  --texto: #fff8ee;
+  --texto-fraco: rgba(255, 248, 238, 0.76);
+  --risco: rgba(255, 248, 238, 0.28);
+  --acento-texto: #fff8ee;
+  --cota: #fff8ee;
+  background-color: var(--madeira);
+  color: #fff8ee;
+  color-scheme: dark;
+}
+.branco-sup {
+  --sup: var(--branco);
+  --sup-2: var(--feltro);
+  background-color: var(--branco);
+}
+
+/* O painel pinta o próprio chão: ver app/painel/layout.tsx */
+.papel {
+  background: var(--feltro);
+  background-image: none;
+  color: var(--tinta);
+  color-scheme: light;
+}
+
+::selection {
+  background: var(--madeira-clara);
+  color: var(--tinta);
+}
+
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--minas);
+  outline-offset: 3px;
+}
+.escuro :where(a, button, input, select, textarea, [tabindex]):focus-visible,
+.madeira :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline-color: var(--madeira-clara);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   A COTA. A linha de desenho técnico: um fio com os traços nas pontas
+   e a medida no meio, em algarismos tabulares. É o dispositivo da
+   marca; onde ela aparece, é a Minas Decor dizendo "cabe".
+
+   .cota          → linha horizontal com o rótulo no meio (cartão, ficha)
+   .cota--v       → vertical (a altura no hero)
+   .cota-rotulo   → a medida, sobre a superfície corrente
+   ───────────────────────────────────────────────────────────── */
+.cota {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.25rem;
+  color: var(--cota);
+}
+.cota::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.8;
+}
+/* os traços das pontas */
+.cota::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+  background-size: 1px 100%, 1px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.cota-rotulo {
+  position: relative;
+  z-index: 1;
+  padding: 0 0.5rem;
+  background: var(--sup);
+  font-family: var(--font-corpo);
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  color: var(--cota);
+  white-space: nowrap;
+}
+.cota--v {
+  flex-direction: column;
+  width: 1.25rem;
+  height: 100%;
+}
+.cota--v::before {
+  left: 50%;
+  right: auto;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: auto;
+}
+.cota--v::after {
+  background-size: 100% 1px, 100% 1px;
+  background-position: 0 0, 0 100%;
+}
+.cota--v .cota-rotulo {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding: 0.5rem 0;
+}
+/* a cota miúda do cartão: sem rótulo no meio, a medida ao lado */
+.cota--fina {
+  height: 0.625rem;
+  width: 2rem;
+  flex-shrink: 0;
+}
+.cota--fina::after {
+  opacity: 0.8;
+}
+/* a raia da base vira a cota: um fio com traços, fininho */
+.raia {
+  display: block;
+  height: 0.625rem;
+  position: relative;
+  color: var(--cota);
+}
+.raia::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: currentColor;
+}
+.raia::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+  background-size: 1px 100%, 1px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+}
+.raia--curta {
+  width: 4rem;
+}
+
+/* ── tipografia ─────────────────────────────────────────────── */
+/* A Bricolage faz as manchetes e os nomes: larga, pesada, apertada,
+   como letreiro de loja de móveis. O corpo é a Instrument Sans. Nada
+   fica em caixa alta. */
+.romana {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+}
+.manchete {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.98;
+}
+.secao {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: var(--texto);
+}
+/* o rótulo pequeno: caixa normal, peso médio, na madeira */
+.etiqueta {
+  font-family: var(--font-corpo);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0;
+  color: var(--acento-texto);
+}
+.titulo-cartao {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.0625rem;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.preco {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+.medida {
+  font-family: var(--font-corpo);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+.falada {
+  font-family: var(--font-corpo);
+  font-weight: 400;
+  line-height: 1.55;
+}
+.miudo {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--texto-fraco);
+}
+.apagado {
+  color: var(--texto-fraco);
+}
+.acento {
+  color: var(--acento-texto);
+}
+/* nomes herdados pelo painel e pelas páginas de lista */
+.display-secao {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+.display-peca {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+.display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.placa {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.mono {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.mono-rotulo {
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+/* ── controles ──────────────────────────────────────────────── */
+/* Botão de canto reto: a tinta cheia é o principal, o fio é o
+   secundário, a madeira é o que acende. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--raio);
+  border: 1.5px solid transparent;
+  font-family: var(--font-corpo);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 0.9375rem 1.375rem;
+  transition: background-color var(--transicao), color var(--transicao),
+    border-color var(--transicao), transform 120ms ease-out;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/* o cheio: tinta sobre a parede; parede sobre a tinta */
+.btn--cta,
+.btn--primario,
+.btn--tinta,
+.btn--placa-tinta {
+  background: var(--tinta);
+  color: var(--parede);
+  border-color: var(--tinta);
+}
+.btn--cta:hover:not(:disabled),
+.btn--primario:hover:not(:disabled),
+.btn--tinta:hover:not(:disabled),
+.btn--placa-tinta:hover:not(:disabled) {
+  background: var(--madeira-escura);
+  border-color: var(--madeira-escura);
+  color: #fff8ee;
+}
+.btn--cta:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.escuro .btn--cta,
+.escuro .btn--primario,
+.escuro .btn--tinta {
+  background: var(--parede);
+  color: var(--tinta);
+  border-color: var(--parede);
+}
+.escuro .btn--cta:hover:not(:disabled),
+.escuro .btn--primario:hover:not(:disabled),
+.escuro .btn--tinta:hover:not(:disabled) {
+  background: var(--madeira-clara);
+  border-color: var(--madeira-clara);
+  color: var(--tinta);
+}
+/* a madeira: o botão que fecha (WhatsApp, pedir) */
+.btn--raia,
+.btn--agua,
+.btn--latao,
+.btn--madeira,
+.btn--placa-ouro {
+  background: var(--madeira);
+  color: #fff8ee;
+  border-color: var(--madeira);
+}
+.btn--raia:hover:not(:disabled),
+.btn--agua:hover:not(:disabled),
+.btn--latao:hover:not(:disabled),
+.btn--madeira:hover:not(:disabled),
+.btn--placa-ouro:hover:not(:disabled) {
+  background: var(--madeira-escura);
+  border-color: var(--madeira-escura);
+}
+.btn--raia:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.madeira .btn--madeira,
+.madeira .btn--raia,
+.madeira .btn--agua {
+  background: var(--tinta);
+  border-color: var(--tinta);
+  color: var(--parede);
+}
+.btn--linha,
+.btn--placa-fio {
+  border-color: var(--texto);
+  color: var(--texto);
+  background: transparent;
+}
+.btn--linha:hover:not(:disabled),
+.btn--placa-fio:hover:not(:disabled) {
+  background: var(--texto);
+  color: var(--sup);
+}
+.escuro .btn--placa-fio,
+.escuro .btn--linha,
+.madeira .btn--placa-fio,
+.madeira .btn--linha {
+  border-color: rgba(243, 241, 236, 0.55);
+  color: var(--texto);
+}
+.escuro .btn--placa-fio:hover:not(:disabled),
+.escuro .btn--linha:hover:not(:disabled),
+.madeira .btn--placa-fio:hover:not(:disabled),
+.madeira .btn--linha:hover:not(:disabled) {
+  background: var(--texto);
+  color: var(--sup);
+}
+.btn--texto {
+  padding: 0.5rem 0;
+  border-radius: 0;
+  color: var(--acento-texto);
+  font-size: 0.9375rem;
+}
+.btn--texto:hover:not(:disabled) {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: var(--minas);
+  text-decoration-thickness: 2px;
+}
+.btn--pequeno {
+  padding: 0.6875rem 1rem;
+  font-size: 0.875rem;
+}
+.papel .btn--primario,
+.papel .btn--cta {
+  background: var(--tinta);
+  color: var(--parede);
+}
+.papel .btn--linha {
+  border-color: var(--tinta);
+  color: var(--tinta);
+}
+.papel .btn--texto {
+  color: var(--madeira-escura);
+}
+.btn--placa {
+  padding: 0.9375rem 1.5rem;
+}
+.placa-bloco {
+  border-radius: var(--raio);
+}
+
+/* a etiqueta sobre a foto: papel com o fio de tinta, o preço ou o aviso */
+.placa-etiqueta {
+  display: inline-block;
+  padding: 0.4375rem 0.625rem;
+  background: var(--parede);
+  color: var(--tinta);
+  border: 1px solid var(--tinta);
+  font-family: var(--font-corpo);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  line-height: 1;
+  border-radius: var(--raio-mini);
+}
+.placa-etiqueta--minas {
+  background: var(--minas);
+  border-color: var(--minas);
+  color: #fff;
+}
+
+.campo {
+  width: 100%;
+  border: 1px solid var(--cimento-medio);
+  border-radius: var(--raio-mini);
+  background: var(--off-white);
+  padding: 0.6875rem 0.875rem;
+  font-family: var(--font-corpo);
+  font-size: 0.9375rem;
+  color: var(--tinta);
+  transition: border-color var(--transicao);
+}
+.campo:hover {
+  border-color: var(--cimento-escuro);
+}
+.campo:focus {
+  outline: none;
+  border-color: var(--tinta);
+}
+.campo::placeholder {
+  color: var(--cimento-escuro);
+}
+.campo--auto {
+  width: auto;
+}
+.campo--mono {
+  font-variant-numeric: tabular-nums;
+}
+
+/* o campo com o rótulo sentado na borda */
+.campo-flutuante {
+  position: relative;
+  display: block;
+}
+.campo-flutuante > span {
+  position: absolute;
+  top: -0.5rem;
+  left: 0.75rem;
+  padding: 0 0.375rem;
+  background: var(--sup);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--texto-fraco);
+  line-height: 1;
+  pointer-events: none;
+}
+.campo-flutuante > input,
+.campo-flutuante > select {
+  width: 100%;
+  border: 1px solid var(--risco);
+  border-radius: var(--raio-mini);
+  background: var(--sup);
+  padding: 0.9375rem 0.875rem 0.75rem;
+  font-family: var(--font-corpo);
+  font-size: 1rem;
+  color: var(--texto);
+  transition: border-color var(--transicao);
+  appearance: none;
+}
+.campo-flutuante > select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2712%27 height=%278%27%3E%3Cpath d=%27M1 1l5 5 5-5%27 fill=%27none%27 stroke=%27%231b1815%27 stroke-width=%271.8%27/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.875rem center;
+  padding-right: 2.25rem;
+  cursor: pointer;
+}
+.campo-flutuante > select option {
+  background: var(--sup);
+  color: var(--texto);
+}
+.campo-flutuante > input::placeholder {
+  color: var(--texto-fraco);
+  opacity: 0.7;
+}
+.campo-flutuante > input:focus,
+.campo-flutuante > select:focus {
+  outline: none;
+  border-color: var(--texto);
+}
+.campo-flutuante:focus-within > span {
+  color: var(--texto);
+}
+
+/* a busca: linha, não caixa */
+.busca-linha {
+  border: 1px solid var(--risco);
+  border-radius: var(--raio-mini);
+  background: transparent;
+  padding: 0.5rem 0.875rem;
+  font-family: var(--font-corpo);
+  font-size: 0.875rem;
+  color: var(--texto);
+  transition: border-color var(--transicao);
+}
+.busca-linha::placeholder {
+  color: var(--texto-fraco);
+}
+.busca-linha:hover,
+.busca-linha:focus {
+  outline: none;
+  border-color: var(--acento-texto);
+}
+.busca-linha option {
+  background: var(--sup);
+  color: var(--texto);
+}
+/* a busca do cabeçalho: campo no feltro, a lupa em tinta */
+.busca-cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: var(--raio);
+  background: var(--feltro);
+  padding: 0 0.375rem 0 1rem;
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+}
+.busca-cabecalho:focus-within {
+  border-color: var(--tinta);
+  box-shadow: 0 0 0 3px rgba(27, 24, 21, 0.1);
+}
+.busca-cabecalho > input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  padding: 0.75rem 0;
+  font-family: var(--font-corpo);
+  font-size: 0.9375rem;
+  color: var(--tinta);
+}
+.busca-cabecalho > input::placeholder {
+  color: var(--tinta-fraca);
+}
+.busca-cabecalho > input:focus {
+  outline: none;
+}
+.busca-cabecalho > button {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--raio-mini);
+  background: var(--tinta);
+  color: var(--parede);
+  transition: background-color var(--transicao);
+}
+.busca-cabecalho > button:hover {
+  background: var(--madeira-escura);
+}
+.escuro .busca-cabecalho {
+  background: var(--tinta-2);
+}
+.escuro .busca-cabecalho > input {
+  color: var(--parede);
+}
+.escuro .busca-cabecalho > input::placeholder {
+  color: var(--marfim-fraco);
+}
+.escuro .busca-cabecalho > button {
+  background: var(--madeira);
+  color: #fff8ee;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   AS PORTAS DO CABEÇALHO. Uma linha branca de texto: o cômodo em
+   Bricolage e a contagem miúda. A porta acesa ganha o fio vermelho
+   da montanha por baixo. No desktop, o mouse por cima abre a aba dela.
+   ───────────────────────────────────────────────────────────── */
+.porta {
+  position: relative;
+  flex-shrink: 0;
+}
+.porta-link {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  min-width: 0;
+  padding: 0.875rem 0.875rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: -0.01em;
+  color: var(--tinta);
+  white-space: nowrap;
+  transition: color var(--transicao);
+}
+.porta-link > svg {
+  display: none;
+}
+/* o fio vermelho que cresce do meio embaixo da porta acesa */
+.porta-link::after {
+  content: "";
+  position: absolute;
+  left: 0.875rem;
+  right: 0.875rem;
+  bottom: 0;
+  height: 2px;
+  background: var(--minas);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.porta-link[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+.porta-numero {
+  display: inline-flex;
+  font-family: var(--font-corpo);
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--tinta-fraca);
+  letter-spacing: 0;
+}
+.porta-nota {
+  display: none;
+  font-family: var(--font-corpo);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--tinta-fraca);
+}
+@media (min-width: 1024px) {
+  .porta-link {
+    padding: 0.9375rem 1.125rem;
+    font-size: 1.0625rem;
+  }
+  .porta-nota {
+    display: inline;
+  }
+  .porta:hover > .porta-link,
+  .porta:focus-within > .porta-link {
+    color: var(--madeira-escura);
+  }
+  .porta:hover > .porta-link::after,
+  .porta:focus-within > .porta-link::after {
+    transform: scaleX(1);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   A GAVETA DO MENU. Entra pela direita, na tinta, do alto ao pé da
+   tela, com o véu escurecendo a página atrás.
+   ───────────────────────────────────────────────────────────── */
+.gaveta-veu {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(27, 24, 21, 0.6);
+  animation: veu-entra 200ms ease-out both;
+}
+.gaveta {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  width: min(24rem, 92vw);
+  border-left: 1px solid var(--madeira);
+  box-shadow: -30px 0 60px -30px rgba(0, 0, 0, 0.8);
+  animation: gaveta-entra 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.gaveta-porta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.125rem 0.75rem;
+  border-radius: var(--raio-mini);
+  transition: background-color var(--transicao);
+}
+.gaveta-porta:hover {
+  background: var(--tinta-2);
+}
+@keyframes gaveta-entra {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes veu-entra {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   O AVISO DO TOPO. Quatro frases se revezam: cada uma sobe, fica
+   quatro segundos e sai por cima. Com menos movimento, fica só a primeira.
+   ───────────────────────────────────────────────────────────── */
+.aviso {
+  position: relative;
+  height: 2.25rem;
+  overflow: hidden;
+}
+@media (max-width: 639px) {
+  .aviso {
+    font-size: 0.6875rem;
+  }
+}
+.aviso-item {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  animation: aviso-roda 16s cubic-bezier(0.2, 0.7, 0.2, 1) infinite;
+  animation-delay: calc(var(--i) * 4s);
+}
+@keyframes aviso-roda {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  4% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  23% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  27% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aviso-item {
+    animation: none;
+  }
+  .aviso-item[style*="--i: 0"] {
+    opacity: 1;
+  }
+}
+.porta-aba {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .porta-aba {
+    --sup: var(--branco);
+    --sup-2: var(--feltro);
+    --texto: var(--tinta);
+    --texto-fraco: var(--tinta-fraca);
+    --risco: var(--linha);
+    --acento-texto: var(--madeira-escura);
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 60;
+    width: max-content;
+    min-width: 18rem;
+    max-width: min(56rem, calc(100vw - 2rem));
+    padding: 1.25rem 1.5rem 1.5rem;
+    background: rgba(255, 255, 255, 0.96);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border-top: 2px solid var(--minas);
+    border-radius: 0 0 var(--raio) var(--raio);
+    box-shadow: 0 30px 50px -24px rgba(27, 24, 21, 0.45);
+    color: var(--tinta);
+    color-scheme: light;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 160ms ease-out, transform 160ms ease-out, visibility 0s linear 160ms;
+  }
+  .porta-aba--direita {
+    left: auto;
+    right: 0;
+  }
+  .porta:hover > .porta-aba,
+  .porta:focus-within > .porta-aba {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition-delay: 80ms, 80ms, 0s;
+  }
+}
+.porta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.5rem 0.5rem;
+  min-width: 10rem;
+  white-space: nowrap;
+  border-radius: var(--raio-mini);
+}
+.porta-item:hover {
+  background: rgba(27, 24, 21, 0.05);
+}
+
+/* pílulas de filtro: fio; a escolhida é tinta cheia */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border: 1px solid var(--risco);
+  border-radius: var(--raio-mini);
+  padding: 0.5rem 0.875rem;
+  font-family: var(--font-corpo);
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0;
+  color: var(--texto);
+  background: transparent;
+  transition: border-color var(--transicao), background-color var(--transicao), color var(--transicao);
+  cursor: pointer;
+}
+.chip:hover {
+  border-color: var(--texto);
+}
+.chip[aria-pressed="true"],
+.chip[data-ativo="true"],
+.chip--cheio {
+  border-color: var(--texto);
+  background: var(--texto);
+  color: var(--sup);
+}
+.chip--quadrado {
+  padding: 0.625rem 1rem;
+}
+.papel .chip {
+  color: var(--tinta);
+  border-color: var(--cimento-medio);
+}
+.papel .chip[aria-pressed="true"] {
+  background: var(--tinta);
+  border-color: var(--tinta);
+  color: var(--off-white);
+}
+
+/* ── régua, moldura, cartão ─────────────────────────────────── */
+.regua {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.moldura {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border: 1px solid var(--madeira);
+  border-radius: var(--raio);
+}
+.tem-moldura {
+  position: relative;
+}
+.tem-moldura > .moldura {
+  opacity: 0;
+  transition: opacity var(--transicao);
+}
+.tem-moldura:hover > .moldura,
+.tem-moldura:focus-within > .moldura,
+.tem-moldura[data-ativa="true"] > .moldura {
+  opacity: 1;
+}
+.papel .moldura {
+  border-color: var(--madeira-escura);
+}
+/* o cartão da peça: branco sobre a parede, fio que escurece no hover */
+.cartao {
+  background: var(--branco);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+  overflow: hidden;
+  transition: border-color var(--transicao);
+}
+.cartao:hover {
+  border-color: var(--tinta);
+}
+.escuro .cartao {
+  background: var(--tinta-2);
+  border-color: var(--risco);
+}
+
+/* um bloco de superfície com os cantos e o conteúdo cortado */
+.bloco {
+  border-radius: var(--raio);
+  overflow: hidden;
+}
+
+/* a sanfona do rodapé no celular */
+.rodape-seta {
+  transform: rotate(90deg);
+  transition: transform 200ms ease-out;
+}
+.rodape-sanfona[open] .rodape-seta {
+  transform: rotate(-90deg);
+}
+
+/* ── o miolo e as sangrias ──────────────────────────────────── */
+.miolo {
+  width: 100%;
+  max-width: var(--largura);
+  margin-inline: auto;
+  padding-inline: var(--sangria);
+}
+.sangra {
+  margin-inline: calc(-1 * var(--sangria));
+  padding-inline: var(--sangria);
+}
+
+/* ── trilhos horizontais ────────────────────────────────────── */
+.faixa-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: var(--sangria);
+}
+.faixa-scroll::-webkit-scrollbar {
+  display: none;
+}
+.faixa-scroll > * {
+  scroll-snap-align: start;
+}
+
+/* a foto como veio, sobre o feltro */
+.foto {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--raio);
+  background: var(--feltro);
+}
+
+/* a foto grande com o texto por cima: o véu escuro sobe de baixo */
+.veu::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(27, 24, 21, 0) 40%, rgba(27, 24, 21, 0.78) 100%);
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   AS GARANTIAS: uma régua de quatro promessas, separadas por fio, sem
+   caixa: elas são o rodapé do hero, não um cartão flutuante.
+   No celular viram uma fila que rola.
+   ───────────────────────────────────────────────────────────── */
+.garantias {
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  border-top: 1px solid var(--linha);
+  border-bottom: 1px solid var(--linha);
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--sangria);
+}
+.garantias > li {
+  flex-shrink: 0;
+  min-width: min(17rem, 78vw);
+  scroll-snap-align: start;
+}
+.garantias > li + li {
+  border-left: 1px solid var(--linha);
+}
+.garantia {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  height: 100%;
+  padding: 1.125rem 1.125rem 1.125rem 0.125rem;
+  transition: color var(--transicao);
+}
+.garantias > li + li .garantia {
+  padding-left: 1.125rem;
+}
+.garantia-icone {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--raio);
+  background: var(--feltro);
+  color: var(--madeira-escura);
+  transition: background-color var(--transicao), color var(--transicao);
+}
+.garantia-titulo {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--tinta);
+  transition: color var(--transicao);
+}
+.garantia:hover > .garantia-icone,
+.garantia:focus-visible > .garantia-icone {
+  background: var(--tinta);
+  color: var(--parede);
+}
+.garantia:hover .garantia-titulo {
+  color: var(--madeira-escura);
+}
+@media (min-width: 1024px) {
+  .garantias {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: visible;
+  }
+  .garantias > li {
+    min-width: 0;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   O AMBIENTE: a porta de cômodo. Foto larga, e uma placa branca
+   sentada no canto de baixo, com o nome do cômodo em Bricolage e a
+   linha do que tem lá. No hover a placa vira tinta.
+   ───────────────────────────────────────────────────────────── */
+.ambiente,
+.azulejo {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--raio);
+  background: var(--feltro);
+}
+.ambiente-placa,
+.azulejo-faixa {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  border-radius: var(--raio);
+  background: var(--branco);
+  color: var(--tinta);
+  transition: background-color var(--transicao), color var(--transicao);
+}
+.ambiente:hover .ambiente-placa,
+.ambiente:focus-visible .ambiente-placa,
+.azulejo:hover .azulejo-faixa {
+  background: var(--tinta);
+  color: var(--parede);
+}
+@media (min-width: 640px) {
+  .ambiente-placa {
+    right: auto;
+    min-width: 14rem;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   A RÉGUA DA PAREDE ("cabe na sua parede?"): o range vira uma trena.
+   A trilha é um fio de tinta com os centímetros marcados; o cursor é
+   um quadrado de tinta com a medida escrita por cima.
+   ───────────────────────────────────────────────────────────── */
+.trena {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 2.5rem;
+  background: transparent;
+  cursor: pointer;
+}
+.trena::-webkit-slider-runnable-track {
+  height: 0.75rem;
+  border-radius: 1px;
+  background:
+    linear-gradient(90deg, var(--tinta) 1px, transparent 1px) 0 0 / 10% 100% repeat-x,
+    linear-gradient(90deg, rgba(27, 24, 21, 0.35) 1px, transparent 1px) 0 4px / 2% 50% repeat-x,
+    linear-gradient(var(--tinta), var(--tinta)) 0 100% / 100% 1px no-repeat;
+}
+.trena::-moz-range-track {
+  height: 0.75rem;
+  background:
+    linear-gradient(90deg, var(--tinta) 1px, transparent 1px) 0 0 / 10% 100% repeat-x,
+    linear-gradient(90deg, rgba(27, 24, 21, 0.35) 1px, transparent 1px) 0 4px / 2% 50% repeat-x,
+    linear-gradient(var(--tinta), var(--tinta)) 0 100% / 100% 1px no-repeat;
+}
+.trena::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.125rem;
+  height: 1.75rem;
+  margin-top: -0.5rem;
+  border-radius: 2px;
+  background: var(--minas);
+  border: 2px solid var(--parede);
+  box-shadow: 0 0 0 1px var(--tinta);
+}
+.trena::-moz-range-thumb {
+  width: 1.125rem;
+  height: 1.75rem;
+  border-radius: 2px;
+  background: var(--minas);
+  border: 2px solid var(--parede);
+  box-shadow: 0 0 0 1px var(--tinta);
+}
+
+/* o esqueleto de carregamento, com o brilho que corre */
+.esqueleto {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--raio-mini);
+  background: var(--feltro-2);
+}
+.esqueleto::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+  animation: esqueleto-brilho 1.2s ease-in-out infinite;
+}
+@keyframes esqueleto-brilho {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   A FICHA: a tabela de fábrica (Estofamento / Estrutura / Medidas)
+   redesenhada. Linhas de fio, o rótulo à esquerda em peso médio, o
+   valor à direita em algarismos tabulares.
+   ───────────────────────────────────────────────────────────── */
+.ficha {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  border-top: 1px solid var(--risco);
+}
+.ficha dt,
+.ficha dd {
+  padding: 0.6875rem 0;
+  border-bottom: 1px solid var(--risco);
+  font-size: 0.9375rem;
+}
+.ficha dt {
+  padding-right: 1.5rem;
+  color: var(--texto-fraco);
+  font-weight: 500;
+}
+.ficha dd {
+  color: var(--texto);
+  font-variant-numeric: tabular-nums;
+}
