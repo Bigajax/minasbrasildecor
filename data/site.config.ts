@@ -49,7 +49,7 @@ export const site = {
  * PREVIA = null e o número acima passa a valer.
  */
 export const PREVIA: { whatsapp: string; mensagem: string } | null = {
-  whatsapp: "5544999997219",
+  whatsapp: "5544991246187",
   mensagem: "Oi! Vi a prévia da vitrine da Minas Brasil Decor e quero colocar no ar.",
 };
 
